@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hh{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+header{
+    background-color: rgb(249, 158, 30);
+    padding: 10px 0px 10px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.col-2{
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+.col-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-8{
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+    font-size: 20px;
+}
+.menu ul li {
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.root li a:hover{
+    background-color: rgb(249, 158, 30);
+    font-weight: bold;
+    font-size: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+    *{
+        padding:0;
+        margin:0;
+    }
+    body{
+        font-family: 'Instrument Serif', serif;
+        font-size:  14px;
+        color:#111;
+        line-height: 1.15;
+        background-color: #e6e5e5;  
+    }
+    #wrapper{
+        max-width: 1170px;
+        margin:0 auto;
+    }
+    .headline{
+        text-align: center;
+        margin:40px 0px;
+    }
+    h3{
+        font-size:18px;
+        color: #111;
+        padding:10px 20px;
+        text-transform:uppercase;
+        border: 1px solid #bebebe;
+        display:inline-block;
+        color:#555;
+        font-weight: 600;
+    }
+    ul.products{
+        list-style: none;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    ul.products li{
+        flex-basis:  25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+    ul.products li img{
+        max-width: 100%;
+        height:auto;
+    }
+    ul.products li .product-top{
+        position:relative;
+        overflow:hidden;
+    }
+    ul.products li .product-top .product-thumb{
+        display:block;
+    }
+    ul.products li .product-top .product-thumb img{
+        display:block;
+    }
+    ul.products li:hover .product-top .product-thumb img{
+        filter:opacity(80%)
+    }
+    ul.products li .product-top a.buy-now{
+        text-transform:uppercase;
+        text-decoration: none;
+        text-align: center;
+        display:block;
+        background-color: #446084;
+        color:#fff;
+        padding:10px 0px;
+        position:absolute;
+        bottom:-36px;
+        width:100%;
+        transition: 0.25s ease-in-out;
+        opacity:0.85;
+    }
+    ul.products li .hover a.buy-now{
+        bottom:0px;
+    }
+    ul.products li .product-info{
+        padding:10px 0px;
+    }
+    ul.products li .product-info a{
+        display: block;
+        text-decoration: none;
+    }
+    ul.products li .product-info a.product-cat{
+        font-size: 18px;
+        text-transform:uppercase;
+        color:#ee3d3d;
+        padding:3px 0px; 
+    }
+    ul.products li .product-info a.product-name{
+        color:#334862;
+        padding:3px 0px;
+    }
+    ul.products li .product-info .product-price{
+        background-color: yellow; font-weight: bold;
+    }
+    s{color: red; font-size: 14px;}
+    i{color: red; font-weight: bold; font-size: 18px;}
+    .nd{
+        font-size: 18px;
+        color: rgb(77, 71, 71);
+    }
+    .hs{
+        font-size: 14px;
+        color: rgb(45, 47, 47);
+    }
+    .footer{
+        background-color: rgb(249, 158, 30);
+        padding: 10px 0px 10px 0px;
+        width: 70%;
+        margin: 0px auto;
+    }
+    .csbh{
+        font-size: 18px;
+        padding: 0px 0px 0px 40px;
+    }
+    .lh{
+        align-items: center;
+        font-size: 18px;
+    }
+    .bhkt{
+        background-color: rgb(242, 186, 109);
+        width: 70%;
+        margin: 0px auto;
+    }
+    .ph{
+        width: 40%;
+        margin: 0px auto;
+    }
+    .gqkl{
+        background-color: rgb(242, 186, 109);
+        width: 70%;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .button{
+        width: 20%;
+        margin: 0px auto;
+        height: 20%;
+        padding: 10px 0px 10px 0px;
+    }
